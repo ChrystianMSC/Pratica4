@@ -17,6 +17,7 @@ class TriangleApp:
         # Botões de controle
         btn_frame = tk.Frame(root)
         btn_frame.pack()
+        
 
         tk.Button(btn_frame, text="↑ Cima", command=self.rotate_up).grid(row=0, column=1)
         tk.Button(btn_frame, text="↓ Baixo", command=self.rotate_down).grid(row=1, column=1)
